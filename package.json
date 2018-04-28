@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/kogosoftwarellc/js-difunc#readme",
   "dependencies": {
+    "babel-runtime": "^6.26.0",
     "esprima": "^4.0.0"
   },
   "devDependencies": {
