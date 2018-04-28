@@ -56,12 +56,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ``````
 
-[downloads-image]: http://img.shields.io/npm/dm/express-openapi.svg
-[npm-url]: https://npmjs.org/package/express-openapi
-[npm-image]: http://img.shields.io/npm/v/express-openapi.svg
+[downloads-image]: http://img.shields.io/npm/dm/difunc.svg
+[npm-url]: https://npmjs.org/package/difunc
+[npm-image]: http://img.shields.io/npm/v/difunc.svg
 
-[travis-url]: https://travis-ci.org/kogosoftwarellc/express-openapi
-[travis-image]: http://img.shields.io/travis/kogosoftwarellc/express-openapi.svg
+[travis-url]: https://travis-ci.org/kogosoftwarellc/js-difunc
+[travis-image]: http://img.shields.io/travis/kogosoftwarellc/js-difunc.svg
 
-[coveralls-url]: https://coveralls.io/r/kogosoftwarellc/express-openapi
-[coveralls-image]: http://img.shields.io/coveralls/kogosoftwarellc/express-openapi/master.svg
+[coveralls-url]: https://coveralls.io/r/kogosoftwarellc/js-difunc
+[coveralls-image]: http://img.shields.io/coveralls/kogosoftwarellc/js-difunc/master.svg
