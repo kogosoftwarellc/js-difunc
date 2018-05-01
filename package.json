@@ -4,11 +4,9 @@
   "description": "Dependency Injection for JavaScript functions",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/difunc.js -s -o index.js",
     "cover": "npm run build && istanbul cover test.js",
     "coveralls": "cat ./coverage/lcov.info | coveralls -v",
-    "prepublish": "npm run build",
-    "test": "npm run build && node test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -26,13 +24,9 @@
   },
   "homepage": "https://github.com/kogosoftwarellc/js-difunc#readme",
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "esprima": "^4.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5"
   }

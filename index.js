@@ -1,6 +1,6 @@
 const esprima = require('esprima');
 
-export default function difunc(dependencies, func, thisArg) {
+module.exports = function difunc(dependencies, func, thisArg) {
   if (typeof func !== 'function') {
     throw new Error(`${func} was not typeof function`);
   }
@@ -40,4 +40,4 @@ export default function difunc(dependencies, func, thisArg) {
   }
 
   return func.apply(thisArg, params);
-}
+};

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const difunc = require('./index.js').default;
+const difunc = require('./index.js');
 
 assert.throws(() => {
   difunc(null, () => {});
