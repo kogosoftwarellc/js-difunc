@@ -1,3 +1,4 @@
+"use strict";
 const esprima = require('esprima');
 
 module.exports = function difunc(dependencies, func, thisArg) {
@@ -19,7 +20,8 @@ module.exports = function difunc(dependencies, func, thisArg) {
     }
   }
 
-  for (let token of tokens) {
+  for (let token, i = 0, len = tokens.length; i < len; i++) {
+    token = tokens[i];
     if (token.type === 'Identifier') {
       if (!(token.value in dependencies)) {
         throw new Error(`${token.value} was not defined in dependencies`);
